@@ -10,13 +10,19 @@
   <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
+        <RouterLink class="nav-link" to="/">Home</RouterLink>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <RouterLink class="nav-link" to="/about">About</RouterLink>
+        
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <RouterLink class="nav-link" to="/contact">Contact</RouterLink>
+        
+      </li>
+      <li class="nav-item">
+        <RouterLink class="nav-link" to="/article">Article</RouterLink>
+        
       </li>
     </ul>
   </div>

@@ -10,7 +10,7 @@ import FooterComponent from './components/FooterComponent.vue';
 
   <HeaderComponent></HeaderComponent>
 
-  <FirstComponent></FirstComponent>
+  <RouterView></RouterView>
 
   <FooterComponent></FooterComponent>
 
