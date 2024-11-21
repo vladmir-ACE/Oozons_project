@@ -9,6 +9,8 @@ const fruitStorage = fruitStore();
 <template>
     <h1>Liste Articles/Fruits</h1>
 
+    <h1> token: {{ fruitStorage.token }}</h1>
+
     <ul>
         <li v-for="item in fruitStorage.fruits"> {{ item }}</li>
     </ul>
