@@ -6,7 +6,7 @@ import AboutView from '../views/AboutView.vue'
 import FirstComponent from '@/components/FirstComponent.vue'
 import ArticleView from '@/views/article/ArticleView.vue'
 import ListeArticleView from '@/views/article/ListeArticleView.vue'
-import AddArticleview from '@/views/article/AddArticleview.vue'
+// import AddArticleview from '@/views/article/AddArticleview.vue'
 import Article2View from '@/views/article2/Article2View.vue'
 
 const router = createRouter({
@@ -33,7 +33,7 @@ const router = createRouter({
         },
         {
           path: 'add',
-          component: AddArticleview,
+          component: ArticleView,
         },
       ],
     },
